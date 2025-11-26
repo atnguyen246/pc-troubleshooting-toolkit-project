@@ -1,0 +1,28 @@
+START
+|
+|-- Is the PC powering on?
+|-- NO → Check power cable → Test outlet → Try a different PSU → END
+|-- YES
+
+
+|-- Is the system booting to OS?
+|-- NO → Check boot device → Run startup repair → Check drive health → END
+|-- YES
+
+
+|-- Is the PC running slow?
+|-- YES → Check Task Manager → Remove startup apps → Run virus scan → Check disk space → END
+|-- NO
+
+
+|-- Is there a network issue?
+|-- YES → Restart router → Check IP config → Test DNS → Reset network → END
+|-- NO
+
+
+|-- Is there a software/app issue?
+|-- YES → Restart app → Update app → Reinstall → Check event viewer → END
+|-- NO
+
+
+END
