@@ -1,0 +1,49 @@
+1. PC Won't Turn On
+
+    -Verify power cable and outlet
+
+    -Ensure PSU switch is on
+
+    -Reseat RAM and GPU
+
+    -Try alternate power supply
+
+2. PC Boots Slowly
+
+    -Disable startup programs
+
+    -Check for viruses/malware
+
+    -Ensure SSD has free space
+
+    -Run disk cleanup
+
+3. No Internet Connection
+
+    -Restart modem/router
+
+    -Run ipconfig /release then ipconfig /renew
+
+    -Check physical cables
+
+    -Reset network (netsh int ip reset)
+
+4. Application Crashes or Freezes
+
+    -Update application
+
+    -Clear temporary files
+
+    -Check Event Viewer logs
+
+    -Reinstall the application
+
+5. Overheating Issues
+
+    -Clean dust from fans and vents
+
+    -Reseat CPU cooler
+
+    -Replace thermal paste if needed
+
+    -Improve airflow inside the case
