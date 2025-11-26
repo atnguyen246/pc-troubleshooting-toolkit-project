@@ -476,3 +476,66 @@ If you want a chat-style transcript, a more casual tone, or variations for diffe
 
 #####################################################################################
 
+Here’s a simple, beginner-friendly PowerShell script that logs user issues into a text or CSV file.
+It prompts the technician for details and automatically timestamps each entry.
+
+✅ Basic PowerShell Script – User Issue Logger
+# User Issue Logger Script
+# Saves IT support issues to a log file with timestamps
+
+# Set log file path (change if needed)
+$logFile = "C:\IT_Logs\User_Issue_Log.csv"
+
+# Create log file with headers if it doesn't exist
+if (-not (Test-Path $logFile)) {
+    "Date,Technician,User,Issue Description,Status" | Out-File -FilePath $logFile -Encoding UTF8
+}
+
+Write-Host "=== User Issue Logger ===" -ForegroundColor Cyan
+
+# Collect input
+$technician   = Read-Host "Enter your name"
+$user         = Read-Host "Enter the user's name"
+$issue        = Read-Host "Describe the issue"
+$status       = Read-Host "Current status (e.g., Open, In Progress, Resolved)"
+
+# Timestamp
+$date = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+
+# Create log entry
+$entry = "$date,$technician,$user,$issue,$status"
+
+# Append to log file
+Add-Content -Path $logFile -Value $entry
+
+Write-Host "`nIssue logged successfully!" -ForegroundColor Green
+Write-Host "Log saved to: $logFile"
+
+📌 What This Script Does
+
+✔ Creates a CSV log file if it doesn’t already exist
+✔ Prompts the technician for:
+
+their name
+
+user's name
+
+issue description
+
+issue status
+
+✔ Adds a new line to the log with a timestamp
+✔ Saves logs in a structured format easy for Excel or systems to read
+
+If you'd like, I can also:
+
+🔧 Add validation
+📁 Output to JSON instead of CSV
+🗃️ Build a GUI version (Windows Forms or WPF)
+📨 Connect it to email alerts or Teams notifications
+📑 Insert this script directly into your toolkit document
+
+Just tell me!
+
+#####################################################################################
+
