@@ -245,3 +245,186 @@ git config --list
 If you want, I can also help you set up SSH keys, GitHub authentication, or fix Git identity errors.
 
 #####################################################################################
+
+Pc Troubleshooting Toolkit
+🧰 PC Troubleshooting Toolkit
+
+This toolkit includes:
+
+A diagnostics script (PowerShell)
+
+A troubleshooting flowchart
+
+A guide for resolving common PC issues
+
+Documentation template for test results
+
+⚙️ 1. Diagnostics Script (PowerShell)
+# PC Diagnostics Script
+
+
+Write-Host "Running PC Diagnostics..." -ForegroundColor Cyan
+
+
+# System Information
+Write-Host "Collecting system information..."
+systeminfo | Out-File -FilePath "system_info.txt"
+
+
+# Disk Health
+Write-Host "Checking disk health..."
+Get-PhysicalDisk | Select-Object FriendlyName, HealthStatus, OperationalStatus | Out-File -Append "system_info.txt"
+
+
+# Memory Usage
+Write-Host "Checking memory usage..."
+Get-CimInstance Win32_OperatingSystem | Select-Object FreePhysicalMemory, TotalVisibleMemorySize | Out-File -Append "system_info.txt"
+
+
+# Network Connectivity
+Write-Host "Testing network connectivity..."
+test-NetConnection google.com -InformationLevel Detailed | Out-File -Append "system_info.txt"
+
+
+Write-Host "Diagnostics Complete. Output saved to system_info.txt" -ForegroundColor Green
+🔄 2. Troubleshooting Flowchart
+
+Text-Based Flowchart
+
+START
+  |
+  |-- Is the PC powering on?
+        |-- NO → Check power cable → Test outlet → Try a different PSU → END
+        |-- YES
+
+
+  |-- Is the system booting to OS?
+        |-- NO → Check boot device → Run startup repair → Check drive health → END
+        |-- YES
+
+
+  |-- Is the PC running slow?
+        |-- YES → Check Task Manager → Remove startup apps → Run virus scan → Check disk space → END
+        |-- NO
+
+
+  |-- Is there a network issue?
+        |-- YES → Restart router → Check IP config → Test DNS → Reset network → END
+        |-- NO
+
+
+  |-- Is there a software/app issue?
+        |-- YES → Restart app → Update app → Reinstall → Check event viewer → END
+        |-- NO
+
+
+END
+🛠️ 3. Guide for Resolving Common Issues
+1. PC Won't Turn On
+
+Verify power cable and outlet
+
+Ensure PSU switch is on
+
+Reseat RAM and GPU
+
+Try alternate power supply
+
+2. PC Boots Slowly
+
+Disable startup programs
+
+Check for viruses/malware
+
+Ensure SSD has free space
+
+Run disk cleanup
+
+3. No Internet Connection
+
+Restart modem/router
+
+Run ipconfig /release then ipconfig /renew
+
+Check physical cables
+
+Reset network (netsh int ip reset)
+
+4. Application Crashes or Freezes
+
+Update application
+
+Clear temporary files
+
+Check Event Viewer logs
+
+Reinstall the application
+
+5. Overheating Issues
+
+Clean dust from fans and vents
+
+Reseat CPU cooler
+
+Replace thermal paste if needed
+
+Improve airflow inside the case
+
+📄 4. Documentation Template for Test Results
+
+PC Diagnostics Report Template
+
+Technician Name: ______________________
+
+Date: ______________________
+
+Device Owner: ______________________
+
+Issue Reported:
+
+
+
+
+Steps Taken:
+
+
+
+
+
+
+
+
+
+
+Diagnostics Script Output:
+
+Attached: system_info.txt
+
+Findings:
+
+
+
+
+Resolution Applied:
+
+
+
+
+Status:
+
+☐ Resolved
+
+☐ Requires follow-up
+
+Next Steps / Notes:
+
+
+
+
+If you'd like, I can generate the diagnostics script as a separate downloadable file or add visual diagrams.
+
+Your PC Troubleshooting Toolkit has been created!
+If you'd like to add more scripts, make the flowchart visual, or generate downloadable files, just tell me.
+
+#####################################################################################
+
