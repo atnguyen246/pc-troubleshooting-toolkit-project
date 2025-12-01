@@ -66,10 +66,16 @@ assets/ – Contains assets used in the project like diagrams, images, logs, rep
 
 ### 4. How to Run
 - Use troubleshooting flowchart to help in identifying user issue
-- Utilize diagnostic script to find information about device
-  - PS ./scripts/diagnostic_script.ps1
-- Initiate user issue logger script to create initial log
-  - PS ./scripts/user_issue_logger_script.ps1
+- Utilize diagnostic script to find information about device:
+  - Open PowerShell
+  - Navigate to scripts directory in the cloned repository
+  - Execute script using this command:
+    - ./diagnostic_script.ps1
+- Initiate user issue logger script to create initial log:
+  - Open PowerShell
+  - Navigate to scripts directory in the cloned repository
+  - Execute script using this command:
+    - ./user_issue_logger_script.ps1
 - If problem is a common issue, use knowledge base article to solve it
 - 
 - Use Test Result Template to record information about the user, device, problem, steps taken, and the follow-up
