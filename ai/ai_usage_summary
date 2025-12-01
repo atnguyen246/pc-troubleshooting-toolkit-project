@@ -1,0 +1,25 @@
+AI Model
+- ChatGPT
+
+Prompt Inputs
+- All my prompts can be found in the chatgpt_prompts file
+- A good majority of my prompts are copied and pasted parts of the requirements provided by the instructor for the final project with some parts excluded/changed/formatted to better fit what I wanted the AI to respond with
+- Asked ChatGPT to test scripts or check my repo for errors or improvements
+- Requested help when I was stuck on something
+- Input scripts to see if they worked in the AI simulation
+
+AI Outputs
+- All ChatGPT output can be found in the chatgpt_output file
+- Created a step-by-step guide to creating an initial GitHub repository and its structure
+- Wrote a README.md template
+- Generated most of the content for the project like document templates, knowledge base articles, troubleshooting flowchart, and scripts
+- Provided feedback on what things to change about my repository
+
+Changes/Edits
+- Made changes to formatting and content of responses to better fit the project
+- I tested diagnostic and user issue logger script created by ChatGPT in PowerShell to see if it works
+- Edited the README.md template given to me by ChatGPT
+- Changed files names to something more suitable
+
+Reflection
+This was really my first time using AI this extensively and it was a bit overwhelming at first. I wasn’t too sure how to write a prompt for the AI to use so my first prompt was just copying and pasting the entire final project requirements, and it basically spewed out an entire repository ready for me to use. It kind of freaked me out how fast it generated this project in seconds when it would probably take a normal person about a few hours to do it. It felt wrong to use ChatGPT this way because I wouldn’t learn anything like this, so I dialed things back and asked ChatGPT about how to write an effective prompt for AI models to use. It basically told me to write a prompt that provides the purpose and context of the prompt while listing constraints for the AI to work with. It also said that AI models work better iteratively, so I should try to preserve the conversation and continue with smaller prompts that build on from previous prompts. This helped me work on the repository step by step and was easier to work with rather than trying to edit it all at once. I also asked ChatGPT to provide a guide to creating the repository structure instead of making it for me, that way I can gain experience doing it myself while the AI helps me along the way. I did get ChatGPT to generate most of the content for the repository because I didn’t really have an idea of how to format a README, a troubleshooting guide, a knowledge base article, or document templates, but it was able to do that for me easily and all the files were formatted in a way that was readable and easy on the eyes. It was also convenient to use ChatGPT to test things or provide feedback on how to improve the repository because I have no idea how to do that. I would say that my initial aversion of AI has been assuaged, and I see the usefulness of AI as a tool, but I can see how people have let themselves go and let the AI do all the work for them, which is detrimental to a person’s development and not what I want to do to myself. I’ll try to incorporate AI more into my life in a way that is beneficial and productive to me by having AI guide me and letting myself do the work instead of being dependent on it and giving myself no opportunities to develop skills and experience
