@@ -2,48 +2,60 @@
 Help Desk Final Project for CIS20638A0 Trevor Lewis
 
 ## Project Purpose
-Provide a brief overview of what this project is about:
-- What problem does it solve?
-- Why does it exist?
-- Who is it for? (Help desk team, automation, documentation, etc.)
-- What goals or outcomes does the project aim to achieve?
+- Technicians initially had trouble finding the right tools to be able to solve issues for users
+- This PC troubleshooting toolkit should help technicians find the all the tools they need in one convenient package
+- This toolkit is meant to be used by help desk and IT support technicians to carry out their tasks and responsibilities
+- With this toolkit, technicians should be able to troubleshoot more efficiently and be able to move on to the next user that needs help
 
 ## Tools & Technologies Used
-List all primary tools, languages, platforms, and integrations. Examples:
-- PowerShell / Bash / Python
-- GitHub / GitHub Actions
-- Windows / Linux environment
-- AI tools (ChatGPT, GitHub Copilot, etc.)
-- Any frameworks, libraries, or third-party services
+- PowerShell
+- GitHub
+- Git
+- Windows environment
+- ChatGPT
+- Visual Studio Code
 
 ## Setup Instructions
-Clearly describe how a user can get started with this project:
 
 ### 1. **Prerequisites**
-- Required software (Python, PowerShell 7, Git, etc.)
-- Required permissions or API keys
-- Operating system requirements
+- PowerShell (execute scripts)
+- GitHub (repository)
+- Git (version control)
+- Visual Studio Code (IDE)
+- Windows 11
 
 ### 2. **Installation**
 - Clone the repository:
-  ```bash
-  git clone https://github.com/your-username/your-repo.git
-Install dependencies:
+  git clone https://github.com/atnguyen246/pc-troubleshooting-toolkit-project
 
-#### Example for Python
-pip install -r requirements.txt
+- Set Your Global Git Username & Email
+  
+  These settings apply to all repositories on your system:
+    git config --global user.name "Your Name"
+    git config --global user.email "you@example.com"
+
+- Set Username & Email for a Single Repository Only
+
+  Run these inside the project folder:
+    git config user.name "Your Name"
+    git config user.email "you@example.com"
+
+- Verify Your Settings
+  
+  All repositories:
+    git config --global --list
+
+  or for repo-specific settings:
+    git config --list
 
 ### 3. File/Folder Structure
+help-desk-docs/ – Contains internal documentation, knowledge base articles, and troubleshooting guides
 
-Briefly describe each folder:
+scripts/ – Contains a diagnostic script and user issue logger script
 
-help-desk-docs/ – Documentation, SOPs, troubleshooting guides
+ai/ – Contains ChatGPT prompts and transcripts used to build this project
 
-scripts/ – Tools, automation scripts, utilities
-
-ai/ – ChatGPT prompts, transcripts, and AI-generated assets
-
-assets/ – Images, reports, logs, diagrams
+assets/ – Contains assets used in the project like diagrams, images, logs, reports, and screenshots
 
 ### 4. How to Run
 
