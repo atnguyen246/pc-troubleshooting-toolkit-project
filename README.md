@@ -58,11 +58,15 @@ ai/ – Contains ChatGPT prompts and transcripts used to build this project
 assets/ – Contains assets used in the project like diagrams, images, logs, reports, and screenshots
 
 ### 4. How to Run
-
-Include command examples or workflow steps:
-
-#### Example PowerShell script execution
-./scripts/your-script.ps1
+- Use troubleshooting flowchart to help in identifying user issue
+- Utilize diagnostic script to find information about device
+  - ./scripts/diagnostic_script.ps1
+- Initiate user issue logger script to create initial log
+  - ./scripts/user_issue_logger_script.ps1
+- If problem is a common issue, use knowledge base article to solve it
+- 
+- Use Test Result Template to record information about the user, device, problem, steps taken, and the follow-up
+- 
 
 ## How AI Was Used in This Project
 
