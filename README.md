@@ -76,16 +76,12 @@ assets/ – Contains assets used in the project like diagrams, images, logs, rep
   - Navigate to scripts directory in the cloned repository
   - Execute script using this command:
     - ./user_issue_logger_script.ps1
-- If problem is a common issue, use knowledge base article to solve it
-- 
-- Use Test Result Template to record information about the user, device, problem, steps taken, and the follow-up
-- 
+- If problem is a common issue, use resolving_common_issues knowledge base article to solve it
+- Use test_result_template to record information about the user, device, problem, steps taken, and the follow-up
+- Send response to user using it_issue_email_response_template to help 
 
 ## How AI Was Used in This Project
-
-Document how AI contributed to the work:
-
-Drafting documentation (SOPs, troubleshooting steps, KB articles)
+Drafting documentation (document templages, troubleshooting flowchart, KB articles)
 
 Generating or refining code snippets
 
@@ -95,11 +91,17 @@ Providing template structures (like this README)
 
 Assisting with project planning or problem-solving
 
-Be transparent about:
+AI-generated parts:
+- Repository structure
+- help-desk-docs
+- project-assets
+- scripts
 
-Which parts were AI-generated
-
-Which parts were reviewed or modified manually
+Manually reviewed or modified parts:
+- README.md
+- chatgpt_prompts
+- chatgpt_output
+- File names
 
 ## Additional Notes
 
