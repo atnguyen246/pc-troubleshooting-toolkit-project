@@ -2,10 +2,7 @@
 Help Desk Final Project for CIS20638A0 Trevor Lewis
 
 ## Project Purpose
-- Technicians initially had trouble finding the right tools to be able to solve issues for users
-- This PC troubleshooting toolkit should help technicians find the all the tools they need in one convenient package
-- This toolkit is meant to be used by help desk and IT support technicians to carry out their tasks and responsibilities
-- With this toolkit, technicians should be able to troubleshoot more efficiently and be able to move on to the next user that needs help
+Technicians initially had trouble finding the right tools to be able to solve issues for users. This PC troubleshooting toolkit should help technicians find the all the tools they need in one convenient package. It is meant to be used by help desk and IT support technicians to carry out their tasks and responsibilities. With this toolkit, technicians should be able to troubleshoot more efficiently and be able to move on to the next user that needs help
 
 ## Tools & Technologies Used
 - PowerShell
@@ -25,6 +22,9 @@ Help Desk Final Project for CIS20638A0 Trevor Lewis
 - Windows 11
 
 ### 2. **Installation**
+- Download Git for version control management
+- Download Visual Studio Code for IDE
+- Open PowerShell
 - Clone the repository:
 
   git clone https://github.com/atnguyen246/pc-troubleshooting-toolkit-project
@@ -78,10 +78,10 @@ assets/ – Contains assets used in the project like diagrams, images, logs, rep
     - ./user_issue_logger_script.ps1
 - If problem is a common issue, use resolving_common_issues knowledge base article to solve it
 - Use test_result_template to record information about the user, device, problem, steps taken, and the follow-up
-- Send response to user using it_issue_email_response_template to help 
+- Send response to user using it_issue_email_response_template to help create email
 
 ## How AI Was Used in This Project
-Drafting documentation (document templages, troubleshooting flowchart, KB articles)
+Drafting documentation (document templates, troubleshooting flowchart, KB articles)
 
 Generating or refining code snippets
 
@@ -104,13 +104,4 @@ Manually reviewed or modified parts:
 - File names
 
 ## Additional Notes
-
-Add any final remarks, credits, or future improvements:
-
-Planned features
-
-Known issues
-
-Contribution guidelines
-
-License information
+This is a class project, so I don't expect it to get developed much more than this. Maybe once I gain more experience, I'll improve it and utilize it to increase my productivity as an IT support technician. If for whatever reason someone finds this repository useful to them, just make sure to give me proper credit and not to abuse it in some way.
