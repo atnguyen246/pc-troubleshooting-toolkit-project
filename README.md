@@ -26,6 +26,7 @@ Help Desk Final Project for CIS20638A0 Trevor Lewis
 
 ### 2. **Installation**
 - Clone the repository:
+
   git clone https://github.com/atnguyen246/pc-troubleshooting-toolkit-project
 
 - Set Your Global Git Username & Email
@@ -33,6 +34,7 @@ Help Desk Final Project for CIS20638A0 Trevor Lewis
   These settings apply to all repositories on your system:
 
     git config --global user.name "Your Name"
+    
     git config --global user.email "you@example.com"
 
 - Set Username & Email for a Single Repository Only
@@ -40,6 +42,7 @@ Help Desk Final Project for CIS20638A0 Trevor Lewis
   Run these inside the project folder:
 
     git config user.name "Your Name"
+    
     git config user.email "you@example.com"
 
 - Verify Your Settings
@@ -49,7 +52,7 @@ Help Desk Final Project for CIS20638A0 Trevor Lewis
     git config --global --list
 
   or for repo-specific settings:
-  
+
     git config --list
 
 ### 3. File/Folder Structure
