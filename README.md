@@ -31,21 +31,25 @@ Help Desk Final Project for CIS20638A0 Trevor Lewis
 - Set Your Global Git Username & Email
   
   These settings apply to all repositories on your system:
+
     git config --global user.name "Your Name"
     git config --global user.email "you@example.com"
 
 - Set Username & Email for a Single Repository Only
 
   Run these inside the project folder:
+
     git config user.name "Your Name"
     git config user.email "you@example.com"
 
 - Verify Your Settings
   
   All repositories:
+
     git config --global --list
 
   or for repo-specific settings:
+  
     git config --list
 
 ### 3. File/Folder Structure
