@@ -96,4 +96,4 @@ Manually reviewed or modified parts:
 - File names
 
 ## Additional Notes
-This is a class project, so I don't expect it to get developed much more than this. Maybe once I gain more experience, I'll improve it and utilize it to increase my productivity as an IT support technician. If for whatever reason someone finds this repository useful to them, just make sure to give me proper credit and not to abuse it in some way.
+This is a class project, so I don't expect it to get developed much more than this. Maybe once I gain more experience, I'll improve it and utilize it to increase my productivity as an IT support technician. If for whatever reason someone finds this project useful to them, just make sure to give me proper credit and not to abuse it in some way.
