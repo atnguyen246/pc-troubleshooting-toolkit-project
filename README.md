@@ -2,7 +2,7 @@
 Help Desk Final Project for CIS20638A0 Trevor Lewis
 
 ## Project Purpose
-Technicians initially had trouble finding the right tools to be able to solve issues for users. This PC troubleshooting toolkit should help technicians find the all the tools they need in one convenient package. It is meant to be used by help desk and IT support technicians to carry out their tasks and responsibilities. With this toolkit, technicians should be able to troubleshoot more efficiently and be able to move on to the next user that needs help
+New technicians can initially have trouble finding the right tools to be able to solve issues for users. This PC troubleshooting toolkit should help technicians find the basic tools they need in one convenient package. It is meant to be used by IT help desk and support technicians to carry out their tasks and responsibilities. With this toolkit, technicians should be able to troubleshoot more efficiently and be able to move on to the next user that needs help
 
 ## Tools & Technologies Used
 - PowerShell
@@ -81,15 +81,7 @@ assets/ – Contains assets used in the project like diagrams, images, logs, rep
 - Send response to user using it_issue_email_response_template to help create email
 
 ## How AI Was Used in This Project
-Drafting documentation (document templates, troubleshooting flowchart, KB articles)
-
-Generating or refining code snippets
-
-Brainstorming workflows or automation logic
-
-Providing template structures (like this README)
-
-Assisting with project planning or problem-solving
+I used ChatGPT to draft documentation (document templates, troubleshooting flowchart, KB articles), generate scripts, brainstorm ideas, provide template structures (like this README and repository structure), and assist with project planning or problem-solving.
 
 AI-generated parts:
 - Repository structure
